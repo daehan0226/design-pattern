@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^18.11.17",
+    "typescript": "^4.9.4"
+  },
+  "name": "design-pattern",
+  "description": "*",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daehan0226/design-pattern.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daehan0226/design-pattern/issues"
+  },
+  "homepage": "https://github.com/daehan0226/design-pattern#readme"
+}
