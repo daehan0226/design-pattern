@@ -7,6 +7,7 @@ const filename = process.argv[2];
 // read 이외의 기능이 많을때에는 각 객체에서 구현한다.
 // 다른 파일 확장자을 읽는 기능이 요구될때 해당 객체를 추가해준다.
 // 분기 처리는 팩토리 패턴을 이용해서 인스턴스를 받을 수 있다.
+// 또는 처음 인스턴스 생성시 fileReader을 생성자에서 받고, self.file_reader = CsvFileReader 식으로 변경하는 방법도 존재
 let fileReader;
 if (filename.endsWith("json")) {
   fileReader = new JsonFileReader();
